@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .boxes {
+    @apply p-4 justify-center items-center flex h-[100px] w-[100px] md:h-[190px] md:w-[190px] bg-[#1f3540] border-[#0f1b21] rounded-[6px] cursor-pointer;
+  }
+  .boxes img {
+    @apply bg-[#1f3540] border-[#0f1b21];
+  }
+  .title img {
+    @apply w-7 h-7 md:w-10 md:h-10 inline-block mx-4;
+  }
+  .title span {
+    @apply text-[#26ffcb] pl-2;
+  }
+}
+
+.boxer {
+  background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+}
