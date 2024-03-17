@@ -71,7 +71,7 @@ const Tictactoe = () => {
   return (
     <div className=" text-center flex flex-col py-auto justify-center items-center h-screen">
       <h1
-        className=" title text-white text-[35px] md:text-[60px]"
+        className=" title text-white text-[36px] md:text-[60px]"
         ref={titleRef}
       >
         TicTacToe Game in <span> React</span>
